@@ -1,0 +1,333 @@
+[
+  {
+    "question": "What command initializes a new React + TypeScript app using Create React App?",
+    "options": [
+      "npx create-react-app my-app",
+      "npx create-react-app my-app --template typescript",
+      "npm init react-app",
+      "npm run create-react-app"
+    ],
+    "correctAnswer": "npx create-react-app my-app --template typescript",
+    "explanation": "This command sets up a new React app pre-configured with TypeScript support.",
+    "topic": "React Setup"
+  },
+  {
+    "question": "Which hook is used to manage state in a functional component?",
+    "options": ["useState", "useEffect", "useRef", "useMemo"],
+    "correctAnswer": "useState",
+    "explanation": "`useState` allows you to add and update local state in function components.",
+    "topic": "React Hooks"
+  },
+  {
+    "question": "Where is the quiz score stored in this app?",
+    "options": ["Session storage", "Database", "localStorage", "Redux"],
+    "correctAnswer": "localStorage",
+    "explanation": "localStorage is used to save the quiz score persistently in the user's browser.",
+    "topic": "Web Storage API"
+  },
+  {
+    "question": "Which file holds the type definitions for a quiz question?",
+    "options": ["App.tsx", "index.tsx", "data.json", "package.json"],
+    "correctAnswer": "App.tsx",
+    "explanation": "The `Question` interface defining the structure is declared in `App.tsx`.",
+    "topic": "TypeScript Interfaces"
+  },
+  {
+    "question": "What tool manages dependencies in a React project?",
+    "options": ["Vite", "Node.js", "npm", "Webpack"],
+    "correctAnswer": "npm",
+    "explanation": "`npm` installs and manages packages like React, TypeScript, and testing libraries.",
+    "topic": "Node Package Manager"
+  },
+
+  {
+    "question": "Which hook is used to perform side effects in functional components?",
+    "options": ["useEffect", "Option B", "Option C", "Option D"],
+    "correctAnswer": "useEffect",
+    "explanation": "This question covers React useEffect.",
+    "topic": "React useEffect"
+  },
+  {
+    "question": "Which React hook allows you to persist values across renders without triggering re-renders?",
+    "options": ["useRef", "Option D", "Option C", "Option B"],
+    "correctAnswer": "useRef",
+    "explanation": "This question covers React useRef.",
+    "topic": "React useRef"
+  },
+  {
+    "question": "What is used to pass data from parent to child component in React?",
+    "options": ["props", "state", "hooks", "context"],
+    "correctAnswer": "props",
+    "explanation": "This question covers React Props.",
+    "topic": "React Props"
+  },
+  {
+    "question": "Which of the following is valid JSX?",
+    "options": ["<div>Hello</div>", "<div>Hello>", "div>Hello</div>", "<div:Hello>"],
+    "correctAnswer": "<div>Hello</div>",
+    "explanation": "This question covers JSX Syntax.",
+    "topic": "JSX Syntax"
+  },
+  {
+    "question": "Why is the 'key' prop important in React lists?",
+    "options": [
+      "It improves performance",
+      "It avoids warnings",
+      "It helps React identify which items have changed.",
+      "It adds styling"
+    ],
+    "correctAnswer": "It helps React identify which items have changed.",
+    "explanation": "This question covers React Key Prop.",
+    "topic": "React Key Prop"
+  },
+
+  {
+    "question": "What are the two types of components in React?",
+    "options": ["Class and Functional", "Page and UI", "Main and Sub", "Root and Child"],
+    "correctAnswer": "Class and Functional",
+    "explanation": "This question covers Component Types.",
+    "topic": "Component Types"
+  },
+  {
+    "question": "Which TypeScript keyword is used to create a custom type name?",
+    "options": ["type", "define", "alias", "let"],
+    "correctAnswer": "type",
+    "explanation": "This question covers TS Type Alias.",
+    "topic": "TS Type Alias"
+  },
+  {
+    "question": "Which library is commonly used for routing in React?",
+    "options": ["react-router-dom", "router-react", "react-nav", "routejs"],
+    "correctAnswer": "react-router-dom",
+    "explanation": "This question covers React Routing.",
+    "topic": "React Routing"
+  },
+  {
+    "question": "Which method is used to get only specific items from an array?",
+    "options": ["filter", "map", "forEach", "reduce"],
+    "correctAnswer": "filter",
+    "explanation": "This question covers JS Filter Function.",
+    "topic": "JS Filter Function"
+  },
+  {
+    "question": "Which method converts a JSON string into a JavaScript object?",
+    "options": ["JSON.parse", "JSON.stringify", "parseJSON", "convertJSON"],
+    "correctAnswer": "JSON.parse",
+    "explanation": "This question covers JSON Parsing.",
+    "topic": "JSON Parsing"
+  },
+
+  {
+    "question": "What does React use to improve performance and minimize DOM changes?",
+    "options": ["Virtual DOM", "Real DOM", "Fiber", "JS Engine"],
+    "correctAnswer": "Virtual DOM",
+    "explanation": "This question covers React Virtual DOM.",
+    "topic": "React Virtual DOM"
+  },
+  {
+    "question": "What syntax allows you to group elements without adding extra nodes to the DOM?",
+    "options": ["<></>", "<group>", "<div>", "<wrap>"],
+    "correctAnswer": "<></>",
+    "explanation": "This question covers React Fragment.",
+    "topic": "React Fragment"
+  },
+  {
+    "question": "How do you handle click events in React?",
+    "options": ["Using onClick", "Using handleClick", "With setState", "With eventClick"],
+    "correctAnswer": "Using onClick",
+    "explanation": "This question covers Event Handling.",
+    "topic": "Event Handling"
+  },
+  {
+    "question": "Which method retrieves data from localStorage?",
+    "options": ["localStorage.getItem", "localStorage.get", "storage.get", "getItem"],
+    "correctAnswer": "localStorage.getItem",
+    "explanation": "This question covers Local Storage.",
+    "topic": "Local Storage"
+  },
+  {
+    "question": "Which syntax is used for TypeScript type assertions?",
+    "options": ["value as Type", "value = Type", "<Type>value", "assert(value, Type)"],
+    "correctAnswer": "value as Type",
+    "explanation": "This question covers TS Type Assertion.",
+    "topic": "TS Type Assertion"
+  },
+
+  {
+    "question": "Which library is used for testing React components?",
+    "options": ["React Testing Library", "Jestify", "ReactUnit", "MochaReact"],
+    "correctAnswer": "React Testing Library",
+    "explanation": "This question covers React Testing.",
+    "topic": "React Testing"
+  },
+  {
+    "question": "Which command saves your changes in Git locally?",
+    "options": ["git commit", "git save", "git stage", "git push"],
+    "correctAnswer": "git commit",
+    "explanation": "This question covers Git Commit.",
+    "topic": "Git Commit"
+  },
+  {
+    "question": "Which command uploads local Git commits to GitHub?",
+    "options": ["git push", "git commit", "git sync", "git send"],
+    "correctAnswer": "git push",
+    "explanation": "This question covers Git Push.",
+    "topic": "Git Push"
+  },
+  {
+    "question": "Which command copies a GitHub repo to your local machine?",
+    "options": ["git clone", "git pull", "git copy", "git init"],
+    "correctAnswer": "git clone",
+    "explanation": "This question covers Git Clone.",
+    "topic": "Git Clone"
+  },
+  {
+    "question": "What command installs dependencies listed in package.json?",
+    "options": ["npm install", "npm build", "npm init", "npm add"],
+    "correctAnswer": "npm install",
+    "explanation": "This question covers NPM Install.",
+    "topic": "NPM Install"
+  }, 
+
+  {
+    "question": "What does 'react-scripts start' do?",
+    "options": ["Starts the development server", "Builds the app", "Runs tests", "Deploys the app"],
+    "correctAnswer": "Starts the development server",
+    "explanation": "This command launches a local dev server with hot reloading for React apps.",
+    "topic": "React Scripts"
+  },
+  {
+    "question": "What is the syntax for a ternary expression in JavaScript?",
+    "options": ["condition ? true : false", "if (condition) true else false", "condition then true else false", "condition ? false : true"],
+    "correctAnswer": "condition ? true : false",
+    "explanation": "Ternary expressions allow inline if-else statements in JavaScript.",
+    "topic": "JavaScript Syntax"
+  },
+  {
+    "question": "What does '===' check for in JavaScript?",
+    "options": ["Strict equality with no type coercion", "Loose equality", "Assignment", "Inequality"],
+    "correctAnswer": "Strict equality with no type coercion",
+    "explanation": "'===' compares both value and type, unlike '=='.",
+    "topic": "JavaScript Operators"
+  },
+  {
+    "question": "Which browser extension helps debug React apps?",
+    "options": ["React Developer Tools", "Redux DevTools", "Chrome DevTools", "Vue.js devtools"],
+    "correctAnswer": "React Developer Tools",
+    "explanation": "This extension lets you inspect React component hierarchies and state.",
+    "topic": "Debugging Tools"
+  },
+  {
+    "question": "How do you add TypeScript when creating a React app using CRA?",
+    "options": ["--template typescript", "--typescript", "--ts", "--with-ts"],
+    "correctAnswer": "--template typescript",
+    "explanation": "This flag configures the app with TypeScript support.",
+    "topic": "React Setup"
+  },
+  {
+    "question": "Which keyword allows block-scoped variables in JavaScript?",
+    "options": ["let", "var", "const", "static"],
+    "correctAnswer": "let",
+    "explanation": "'let' declares variables limited to the block scope, unlike 'var'.",
+    "topic": "JavaScript Variables"
+  },
+  {
+    "question": "Which keyword declares a read-only variable in JavaScript?",
+    "options": ["const", "let", "var", "readonly"],
+    "correctAnswer": "const",
+    "explanation": "'const' declares variables whose value cannot be reassigned.",
+    "topic": "JavaScript Variables"
+  },
+  {
+    "question": "How do you set default values for React component props?",
+    "options": ["defaultProps", "propDefaults", "setDefaults", "props.default"],
+    "correctAnswer": "defaultProps",
+    "explanation": "defaultProps define default prop values if none are passed.",
+    "topic": "React Props"
+  },
+  {
+    "question": "Which syntax creates an arrow function in JavaScript?",
+    "options": ["() => {}", "function() {}", "=> function()", "fn() => {}"],
+    "correctAnswer": "() => {}",
+    "explanation": "Arrow functions provide a concise syntax for writing functions.",
+    "topic": "JavaScript Functions"
+  },
+  {
+    "question": "What does 'npm run build' do in a React project?",
+    "options": ["Creates a production build", "Starts the development server", "Runs tests", "Deploys the app"],
+    "correctAnswer": "Creates a production build",
+    "explanation": "This command bundles the app for deployment.",
+    "topic": "React Scripts"
+  },
+  {
+    "question": "Where do you deploy your React app in this project?",
+    "options": ["Vercel", "Netlify", "GitHub Pages", "Heroku"],
+    "correctAnswer": "Vercel",
+    "explanation": "The project uses Vercel for deployment and CI/CD.",
+    "topic": "Deployment"
+  },
+  {
+    "question": "What is CircleCI used for?",
+    "options": ["Continuous Integration", "Project Management", "Code Formatting", "Hosting"],
+    "correctAnswer": "Continuous Integration",
+    "explanation": "CircleCI automates testing and deployment pipelines.",
+    "topic": "CI/CD"
+  },
+  {
+    "question": "How do you define a functional React component?",
+    "options": ["function ComponentName() {}", "class ComponentName {}", "const ComponentName = new React()", "ComponentName = function"],
+    "correctAnswer": "function ComponentName() {}",
+    "explanation": "Functional components are JavaScript functions returning JSX.",
+    "topic": "React Components"
+  },
+  {
+    "question": "What must every React component return?",
+    "options": ["JSX", "HTML", "JSON", "String"],
+    "correctAnswer": "JSX",
+    "explanation": "React components return JSX, a syntax extension for rendering UI.",
+    "topic": "React Components"
+  },
+  {
+    "question": "Which prop is used to render nested elements in React?",
+    "options": ["children", "nested", "props", "content"],
+    "correctAnswer": "children",
+    "explanation": "The `children` prop allows components to render nested JSX elements.",
+    "topic": "React Props"
+  },
+  {
+    "question": "What happens when state is updated in React?",
+    "options": ["Component re-renders", "Nothing", "Component unmounts", "State resets"],
+    "correctAnswer": "Component re-renders",
+    "explanation": "Updating state triggers a re-render to update the UI.",
+    "topic": "React State"
+  },
+  {
+    "question": "Which TypeScript feature defines a set of named constants?",
+    "options": ["enum", "interface", "type", "const"],
+    "correctAnswer": "enum",
+    "explanation": "Enums allow defining a collection of related constants.",
+    "topic": "TypeScript"
+  },
+  {
+    "question": "What does a union type look like in TypeScript?",
+    "options": ["string | number", "string & number", "string, number", "string-number"],
+    "correctAnswer": "string | number",
+    "explanation": "Union types accept multiple types separated by |.",
+    "topic": "TypeScript"
+  },
+  {
+    "question": "How do you clean up effects in useEffect hook?",
+    "options": ["Return a function", "Call cleanup()", "Use clearEffect()", "Set useEffect(false)"],
+    "correctAnswer": "Return a function",
+    "explanation": "Returning a function from useEffect runs cleanup before unmount or next effect.",
+    "topic": "React Hooks"
+  },
+  {
+    "question": "Which method checks if an array contains a value in JavaScript?",
+    "options": ["includes", "contains", "has", "exists"],
+    "correctAnswer": "includes",
+    "explanation": "`includes` returns true if an array contains a specified element.",
+    "topic": "JavaScript Arrays"
+  }
+]
+
